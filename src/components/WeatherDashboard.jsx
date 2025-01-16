@@ -1,1 +1,1 @@
-// Component content here
+// Content of the WeatherDashboard component

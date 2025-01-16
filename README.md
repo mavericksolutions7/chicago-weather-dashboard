@@ -1,21 +1,33 @@
 # Chicago Weather Dashboard
 
-A modern weather dashboard showing real-time Chicago weather conditions with a 3-day forecast.
+A modern weather dashboard showing real-time Chicago weather conditions.
 
 ## Features
-- Real-time weather data updated every 15 minutes
-- Current conditions including temperature, wind, and air quality
-- Historical temperature comparisons
-- Sunrise and sunset times
-- UV index warnings
+- Real-time weather data
+- 3-day forecast
+- Air quality index
+- Precipitation probability
+- Sunrise/sunset times
+- Wind conditions
+
+## Development
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start development server:
+```bash
+npm run dev
+```
+
+## Production
+For production deployment, the dashboard uses real API calls to:
+- Open-Meteo for weather data
+- Air quality data
 - Precipitation forecasts
 
-## Data Sources
-- Weather data from Open-Meteo API
-- Air quality data from external API (to be implemented)
-- Historical data from weather archives (to be implemented)
-
 ## Updates
-- Weather data refreshes every 15 minutes automatically
-- All times are in Chicago local time (CST/CDT)
-- Temperature data includes actual and 'feels like' values
+- Weather data refreshes every 15 minutes
+- All times in Chicago local time (CST/CDT)
+- Temperatures include actual and 'feels like' values
